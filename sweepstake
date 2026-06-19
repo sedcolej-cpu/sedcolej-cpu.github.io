@@ -28,3 +28,30 @@
   <script src="js/leaderboard.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live World Cup Scores</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>⚽ Live Scores</h1>
+    <nav>
+      <a href="index.html">Leaderboard</a>
+      <a href="scores.html">Live Scores</a>
+    </nav>
+
+    <button onclick="loadScores()">🔄 Refresh</button>
+  </header>
+
+  <main>
+    <div id="scores"></div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/scores.js"></script>
+</body>
+</html>
